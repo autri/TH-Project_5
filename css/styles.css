@@ -22,7 +22,6 @@
 
 main {
     margin: auto;
-    max-width: 1000px;
 }
 
 img {
@@ -40,4 +39,10 @@ ul {
 ul li {
     list-style-type: none;
     flex-basis: 25%;
+}
+
+@media (min-width: 1050px) {
+    main {
+        max-width: 1000px;
+    }
 }
